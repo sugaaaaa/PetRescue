@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <x-app-layout>
+        <section class="mt-10">
+            <div class="max-w-screen-xl mx-auto">
+                <div class="grid sm:grid-cols-2 gap-5 px-5">
+                    <div class="">
+                        <img  src="{{ asset('/images/' . $petdetail->images) }}" alt="Pet Image" class="w-full h-[600px] rounded-2xl object-cover">
+                    </div>
+                    <div class="sm:p-10">
+                        <ul>
+                            <li class="mt-5"><strong>Name: </strong>{{ $petdetail->name }}</li>
+                            <li class="mt-5"><strong>Age: </strong>{{ $petdetail->age }}</li>
+                            <li class="mt-5"><strong>Sex: </strong>{{ $petdetail->sex }}</li>
+                            <li class="mt-5"><strong>Vaccine: </strong>{{ $petdetail->vaccine }}</li>
+                        </ul>
+                        <div class="flex gap-5 ">
+                            <h1 class="text-xl">Share to your:</h1>
+                            {!! $shareComponent !!}
+                        </div>
+                        <hr class="h-px my-4 sm:my-8 bg-gray-200 border-0 dark:bg-gray-700">
+                        <div>
+                            <p>{{ $petdetail->content }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <section class="mt-5 sm:mt-10">
+                <h1 class="text-lg sm:text-3xl text-center font-bold">You may Like</h1>
+    
+                {{-- for card --}}
+                <div class="max-w-screen-2xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 mt-4 sm:mt-10 px-4 sm:px-5">
+                    {{-- loop here --}}
+                    <div class="bg-[#F9F6E5] rounded-2xl max-w-sm">
+                        <a href="#">
+                            <img class="rounded-t-[1rem] rounded-b-[50%] w-full h-[400px] object-cover" src="{{asset('image/cat-item-1.jpeg')}}" alt=""/>
+                        </a>
+                        <div class="pt-5 pb-10 grid justify-items-center">
+                            <a href="#" >
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> July </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">2 Year, American curl</p>
+                            <a href="#" class="border border-[#F4C38F] px-5 py-1.5 rounded-full text-sm text-gray-500">Read more</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </section>
+        </section>
+        <script>
+            $(document).ready(function() {
+                $('#adoptButton').click(function() {
+                    $.ajax({
+                        url: '{{ route("login") }}',
+                        type: 'GET',
+                        success: function(response) {
+                            if (response.success) {
+                                alert('You can now proceed to adopt!');
+                            } else {
+                                alert(response.message);
+                            }
+                        },
+                        error: function() {
+                            alert('An error occurred. Please try again.');
+                        }
+                    });
+                });
+            });
+            document.addEventListener('DOMContentLoaded', function () {
+            const modalButton = document.getElementById('defaultModalButton');
+            const modal = document.getElementById('defaultModal');
+            const closeButton = modal.querySelector('[data-modal-toggle]');
+    
+            modalButton.addEventListener('click', function () {
+                modal.classList.remove('hidden');
+            });
+    
+            closeButton.addEventListener('click', function () {
+                modal.classList.add('hidden');
+            });
+        });
+        </script>
+    </x-app-layout>
+</body>
+</html>

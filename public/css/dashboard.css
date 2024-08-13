@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v467_97 {
+    width: 100%;
+    height: 1108px;
+    background: url("../images/v467_97.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v375_93 {
+    width: 250px;
+    height: 100%;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .v375_94 {
+    width: 100px;
+    height: 100px;
+    background: url("../images/v375_94.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 62px;
+    left: 69px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    overflow: hidden;
+  }
+  .v375_95 {
+    width: 200px;
+    height: 52px;
+    background: rgba(235,216,196,1);
+    opacity: 1;
+    position: absolute;
+    top: 294px;
+    left: 19px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+  .v375_96 {
+    width: 100px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 230px;
+    left: 88px;
+    font-family: Aptos;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v375_97 {
+    width: 40px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 310px;
+    left: 88px;
+    font-family: Aptos;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v375_98 {
+    width: 88px;
+    color: rgba(0,0,0,0.699999988079071);
+    position: absolute;
+    top: 374px;
+    left: 88px;
+    font-family: Aptos;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v375_99 {
+    width: 40px;
+    color: rgba(0,0,0,0.699999988079071);
+    position: absolute;
+    top: 440px;
+    left: 85px;
+    font-family: Aptos;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v375_100 {
+    width: 84px;
+    color: rgba(0,0,0,0.699999988079071);
+    position: absolute;
+    top: 506px;
+    left: 85px;
+    font-family: Aptos;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v375_101 {
+    width: 43px;
+    color: rgba(0,0,0,0.699999988079071);
+    position: absolute;
+    top: 566px;
+    left: 85px;
+    font-family: Aptos;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v375_102 {
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    border: 1px solid rgba(0,0,0,0.2199999988079071);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .v375_103 {
+    width: 180px;
+    color: rgba(235,216,196,1);
+    position: absolute;
+    top: 40px;
+    left: 297px;
+    font-family: Aptos;
+    font-weight: Bold;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .v375_153 {
+    width: 100%;
+    height: 959px;
+    background: url("../images/v375_153.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 127px;
+    left: 297px;
+    overflow: hidden;
+  }
+  .v375_154 {
+    width: 100%;
+    height: 959px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
